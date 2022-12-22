@@ -1,0 +1,81 @@
+.header {
+  background-color: #fff;
+  background-image: url(../images/background_header.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  box-sizing: border-box;
+  z-index: 0;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+}
+
+.header__title {
+  /* delete out inherited styles at the end */
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  padding-left: 80px;
+  margin: 0;
+}
+
+.header__span-accent {
+  /* delete out inherited styles at the end */
+  display: block;
+  color: #2f80ed;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__description {
+  /* delete out inherited styles at the end */
+  max-width: 683px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 80px;
+  margin-top: 28px;
+  margin-bottom: 0;
+}
+
+.header__image {
+  width: 646px;
+  height: 568px;
+  position: absolute;
+  z-index: -1;
+  top: 124px;
+  right: 5px;
+}
+
+.header__footer {
+  padding: 0 80px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  /* focus here on getting this to the bottom */
+}
+
+.header__paragraph-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__paragraph {
+  /* delete out inherited styles at the end */
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
+}
