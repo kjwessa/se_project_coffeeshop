@@ -1,0 +1,42 @@
+.form {
+}
+
+.form__fieldset {
+}
+
+.form__label {
+  /* delete out inherited styles at the end */
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__input {
+  /* delete out inherited styles at the end */
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__input::placeholder {
+  color: #838383;
+}
+
+.form__button {
+  /* delete out inherited styles at the end */
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__consent {
+}
+
+.form__checkbox {
+}
