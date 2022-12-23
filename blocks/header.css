@@ -57,17 +57,18 @@
   right: 5px;
 }
 
-.header__footer {
-  padding: 0 80px 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  /* focus here on getting this to the bottom */
-}
-
-.header__paragraph-wrap {
+.header__footer-left {
+  position: absolute;
   display: flex;
   flex-direction: column;
+  left: 80px;
+  bottom: 40px;
+}
+
+.header__footer-right {
+  position: absolute;
+  right: 80px;
+  bottom: 40px;
 }
 
 .header__paragraph {
