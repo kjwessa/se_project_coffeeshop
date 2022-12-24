@@ -14,9 +14,6 @@
 }
 
 .menu__title {
-  /* delete out inherited styles at the end */
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -24,10 +21,7 @@
 }
 
 .menu__subtitle {
-  /* delete out inherited styles at the end */
   font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   margin: 0;

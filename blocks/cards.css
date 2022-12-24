@@ -8,9 +8,6 @@
 }
 
 .card__title {
-  /* delete out inherited styles at the end */
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
@@ -35,12 +32,7 @@
 }
 
 .card__list-paragraph {
-  /* delete out inherited styles at the end */
   font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
   margin: 0;
 }
 
