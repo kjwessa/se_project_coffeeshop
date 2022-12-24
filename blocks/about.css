@@ -1,6 +1,7 @@
-@keyframes pulsate {
+@-webkit-keyframes pulsate {
   0% {
     opacity: 0;
+    -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
   50% {
@@ -8,6 +9,23 @@
   }
   100% {
     opacity: 0;
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+  }
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1);
   }
 }
@@ -19,7 +37,11 @@
   margin: auto;
   color: #fff;
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -61,5 +83,6 @@
 
 .about__circle_animation_blurred {
   z-index: -2;
+  -webkit-animation: pulsate 1.3s ease-in-out infinite;
   animation: pulsate 1.3s ease-in-out infinite;
 }
