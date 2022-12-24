@@ -1,4 +1,10 @@
 .card {
+  max-width: 600px;
+  width: 100%;
+}
+
+.card:last-of-type {
+  margin: auto;
 }
 
 .card__title {
@@ -8,12 +14,24 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
+  margin: 0 0 32px;
 }
 
 .card__list-items {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
 
 .card__list-item {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+.card__list-item:last-of-type {
+  margin-bottom: 0;
 }
 
 .card__list-paragraph {
@@ -23,7 +41,12 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  margin: 0;
 }
 
 .card__list-divider {
+  background-color: #fff;
+  margin: 0 6px 2px;
+  height: 1px;
+  flex-grow: 1;
 }
