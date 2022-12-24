@@ -16,12 +16,7 @@
 }
 
 .footer__social-heading {
-  /* delete out inherited styles at the end */
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
   margin: 0 0 20px 0;
 }
 
@@ -58,21 +53,9 @@
 }
 
 .footer__social-paragraph {
-  /* delete out inherited styles at the end */
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
   margin: 0;
 }
 
 .footer__copyright {
-  /* delete out inherited styles at the end */
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
   margin: 108px 0 0 0;
 }
