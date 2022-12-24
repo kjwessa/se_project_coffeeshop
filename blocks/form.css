@@ -12,12 +12,8 @@
 }
 
 .form__label {
-  /* delete out inherited styles at the end */
-  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
   margin-bottom: 8px;
   align-self: flex-start;
 }
@@ -27,10 +23,6 @@
 }
 
 .form__input {
-  /* delete out inherited styles at the end */
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 32px;
@@ -40,6 +32,8 @@
   border-radius: 4px;
   border-style: solid;
   border-width: 1px;
+  padding-left: 12px;
+  box-sizing: border-box;
 }
 
 input:focus-visible {
@@ -59,12 +53,7 @@ input[type="datetime-local"]:invalid::-webkit-datetime-edit {
 }
 
 .form__button {
-  /* delete out inherited styles at the end */
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
   height: 60px;
   width: 100%;
   max-width: 385px;
