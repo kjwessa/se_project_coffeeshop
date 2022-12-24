@@ -2,8 +2,15 @@
 }
 
 .form__fieldset {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   border: none;
   max-width: 385px;
@@ -15,6 +22,7 @@
   font-style: normal;
   font-weight: 500;
   margin-bottom: 8px;
+  -ms-flex-item-align: start;
   align-self: flex-start;
 }
 
@@ -33,6 +41,8 @@
   border-style: solid;
   border-width: 1px;
   padding-left: 12px;
+  padding-right: 12px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -42,6 +52,22 @@ input:focus-visible {
 
 input[type="checkbox"]:checked {
   background-image: url(../images/check.svg);
+}
+
+input::-webkit-input-placeholder {
+  color: #838383;
+}
+
+input::-moz-placeholder {
+  color: #838383;
+}
+
+input:-ms-input-placeholder {
+  color: #838383;
+}
+
+input::-ms-input-placeholder {
+  color: #838383;
 }
 
 input::placeholder {
@@ -64,6 +90,8 @@ input[type="datetime-local"]:invalid::-webkit-datetime-edit {
   border-radius: 4px;
   border-color: #2f80ed;
   color: #fff;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -72,8 +100,15 @@ input[type="datetime-local"]:invalid::-webkit-datetime-edit {
 }
 
 .form__consent {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
