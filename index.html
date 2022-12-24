@@ -178,14 +178,39 @@
         <h2 class="reservation__title">Book a Table</h2>
         <form action="" class="form reservation__form">
           <fieldset class="form__fieldset">
-            <label for="" class="form__label">Name *</label>
-            <input type="text" class="form__input" placeholder="Name Surname" />
-            <label for="" class="form__label">Number of guests *</label>
-            <input type="text" class="form__input" placeholder="1-8" />
-            <label for="" class="form__label">Date & time *</label>
-            <input type="datetime-local" name="" id="" />
-            <label for="" class="form__label">Your email *</label>
-            <input type="email" name="" id="" class="form__input" placeholder="email@email.com" />
+            <label for="name" class="form__label">Name *</label>
+            <input
+              type="text"
+              class="form__input"
+              placeholder="Name Surname"
+              id="name"
+              name="name"
+              required />
+            <label for="guests" class="form__label">Number of guests *</label>
+            <input
+              type="number"
+              class="form__input"
+              placeholder="1-8"
+              min="1"
+              max="8"
+              name="guests"
+              id="guests"
+              required />
+            <label for="date-time" class="form__label">Date & time *</label>
+            <input
+              type="datetime-local"
+              name="date-time"
+              id="date-time"
+              class="form__input"
+              required />
+            <label for="email" class="form__label">Your email *</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form__input"
+              placeholder="email@email.com"
+              required />
             <button type="submit" class="form__button">Book a table</button>
             <div class="form__consent">
               <input type="checkbox" name="" id="" class="form__checkbox" />

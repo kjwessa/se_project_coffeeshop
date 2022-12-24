@@ -1,8 +1,14 @@
 .form {
-  max-width: 385px;
 }
 
 .form__fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  max-width: 385px;
+  margin: auto;
+  padding: 0;
 }
 
 .form__label {
@@ -12,6 +18,12 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  margin-bottom: 8px;
+  align-self: flex-start;
+}
+
+.form__consent > .form__label {
+  margin-bottom: 0;
 }
 
 .form__input {
@@ -21,10 +33,29 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  margin-bottom: 32px;
+  height: 60px;
+  width: 100%;
+  border-color: #838383;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
 }
 
-.form__input::placeholder {
+input:focus-visible {
+  outline-color: #2f80ed;
+}
+
+input[type="checkbox"]:checked {
+  background-image: url(../images/check.svg);
+}
+
+input::placeholder {
   color: #838383;
+}
+
+input[type="datetime-local"]:invalid::-webkit-datetime-edit {
+  color: #999;
 }
 
 .form__button {
@@ -34,10 +65,34 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  height: 60px;
+  width: 100%;
+  max-width: 385px;
+  margin-bottom: 32px;
+  background-color: #2f80ed;
+  cursor: pointer;
+  border-style: solid;
+  border-radius: 4px;
+  border-color: #2f80ed;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.form__button:hover {
+  opacity: 0.7;
 }
 
 .form__consent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .form__checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+  border-radius: 2px;
+  border-color: #838383;
+  cursor: pointer;
 }
