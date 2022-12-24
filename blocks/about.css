@@ -19,6 +19,8 @@
   margin: auto;
   color: #fff;
   overflow: hidden;
+  display: flex;
+  justify-content: space-between;
 }
 
 .about__title {
@@ -28,9 +30,14 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin: 0;
+  max-width: 251px;
+  padding: 100px 0 0 80px;
 }
 
 .about__content {
+  max-width: 660px;
+  padding: 119px 80px 173px 0;
 }
 
 .about__paragraph {
@@ -40,6 +47,11 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  margin: 0 0 20px;
+}
+
+.about__paragraph:last-of-type {
+  margin-bottom: 0;
 }
 
 .about__circle {
