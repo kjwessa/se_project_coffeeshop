@@ -1,12 +1,20 @@
 .footer {
+  background: -webkit-gradient(linear, left top, left bottom, from(#0a2850), to(#071931));
+  background: -o-linear-gradient(top, #0a2850 0%, #071931 100%);
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   color: #fff;
   margin: auto;
   padding: 60px 100px 60px 80px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .footer__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -16,6 +24,7 @@
 }
 
 .footer__social-heading {
+  font-size: 16px;
   font-weight: bold;
   margin: 0 0 20px 0;
 }
@@ -37,8 +46,14 @@
 .footer__social-link {
   color: white;
   text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
 
