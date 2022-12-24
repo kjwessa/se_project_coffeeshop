@@ -1,10 +1,18 @@
 .footer {
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  color: #fff;
+  margin: auto;
+  padding: 60px 100px 60px 80px;
 }
 
 .footer__content {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer__logo {
+  width: 116px;
+  height: 21px;
 }
 
 .footer__social-heading {
@@ -14,18 +22,39 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
+  margin: 0 0 20px 0;
 }
 
 .footer__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .footer__list-item {
+  margin-bottom: 16px;
+}
+
+.footer__list-item:last-of-type {
+  margin-bottom: 0;
 }
 
 .footer__social-link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
 }
 
 .footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
 
 .footer__social-paragraph {
@@ -35,6 +64,7 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  margin: 0;
 }
 
 .footer__copyright {
@@ -44,4 +74,5 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  margin: 108px 0 0 0;
 }
