@@ -13,9 +13,6 @@
 }
 
 .header__title {
-  /* delete out inherited styles at the end */
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
@@ -24,23 +21,17 @@
 }
 
 .header__span-accent {
-  /* delete out inherited styles at the end */
   display: block;
   color: #2f80ed;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
-  font-weight: normal;
   font-size: 60px;
   line-height: 72px;
-  color: #2f80ed;
 }
 
 .header__description {
-  /* delete out inherited styles at the end */
   max-width: 683px;
   font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   padding-left: 80px;
@@ -72,11 +63,6 @@
 }
 
 .header__paragraph {
-  /* delete out inherited styles at the end */
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
   color: #6f6f6f;
 }
