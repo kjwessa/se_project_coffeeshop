@@ -43,12 +43,12 @@
         </p>
         <img src="./images/inside_coffee_shop.png" alt="" class="header__image" />
         <div class="header__footer-left">
-          <paragraph class="header__paragraph">Hours:</paragraph>
-          <paragraph class="header__paragraph">Monday - Friday (10:00 - 19:00)</paragraph>
-          <paragraph class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</paragraph>
+          <p class="header__paragraph">Hours:</p>
+          <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
+          <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
         </div>
         <div class="header__footer-right">
-          <paragraph class="header__paragraph">200 Success Avenue, The Town of Practicum</paragraph>
+          <p class="header__paragraph">200 Success Avenue, The Town of Practicum</p>
         </div>
       </header>
       <section class="menu" id="menu">
@@ -161,13 +161,12 @@
           <div class="recipes__video">
             <div class="recipes__iframe">
               <iframe
+                style="border: 0"
                 width="480"
                 height="273"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc"
                 title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
             </div>
             <div class="recipes__video-captions">
               <p class="recipes__video-caption">Aeropress recipe</p>
@@ -177,13 +176,13 @@
           <div class="recipes__video">
             <div class="recipes__iframe">
               <iframe
+                style="border: 0"
                 width="480"
                 height="273"
                 src="https://www.youtube.com/embed/st571DYYTR8"
                 title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen">
+              </iframe>
             </div>
             <div class="recipes__video-captions">
               <p class="recipes__video-caption">French press recipe</p>
@@ -231,8 +230,8 @@
               required />
             <button type="submit" class="form__button">Book a table</button>
             <div class="form__consent">
-              <input type="checkbox" name="" id="" class="form__checkbox" />
-              <label for="" class="form__label">I agree with the terms of use</label>
+              <input type="checkbox" name="consent" id="consent" class="form__checkbox" />
+              <label for="consent" class="form__label">I agree with the terms of use</label>
             </div>
           </fieldset>
         </form>
