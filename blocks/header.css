@@ -25,10 +25,6 @@
   color: #2f80ed;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
-  /* Delete the inherited code below and then delete the comment
-  font-size: 60px;
-  line-height: 72px;
-  */
 }
 
 .header__description {
@@ -67,4 +63,5 @@
 .header__paragraph {
   font-weight: 500;
   color: #6f6f6f;
+  margin: 0;
 }

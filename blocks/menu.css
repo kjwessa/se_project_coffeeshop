@@ -14,17 +14,21 @@
 }
 
 .menu__title {
+  max-width: 780px;
+  text-align: center;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: 0 0 24px;
+  margin: 0 auto 24px;
 }
 
 .menu__subtitle {
+  max-width: 780px;
+  text-align: center;
+  margin: 0 auto;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
-  margin: 0;
 }
 
 .menu__cards {
