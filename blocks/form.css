@@ -1,6 +1,3 @@
-.form {
-}
-
 .form__fieldset {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18,6 +15,16 @@
   padding: 0;
 }
 
+.form__fieldset:last-of-type {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
 .form__label {
   font-style: normal;
   font-weight: 500;
@@ -26,7 +33,7 @@
   align-self: flex-start;
 }
 
-.form__consent > .form__label {
+.form__label:last-of-type {
   margin-bottom: 0;
 }
 
@@ -46,36 +53,28 @@
   box-sizing: border-box;
 }
 
-input:focus-visible {
+.form__input::-webkit-input-placeholder {
+  color: #838383;
+}
+.form__input::-moz-placeholder {
+  color: #838383;
+}
+.form__input:-ms-input-placeholder {
+  color: #838383;
+}
+.form__input::-ms-input-placeholder {
+  color: #838383;
+}
+.form__input::placeholder {
+  color: #838383;
+}
+
+.form__input:focus-visible {
   outline-color: #2f80ed;
 }
 
-input[type="checkbox"]:checked {
-  background-image: url(../images/check.svg);
-}
-
-input::-webkit-input-placeholder {
+.form__input[type="datetime-local"]:invalid::-webkit-datetime-edit {
   color: #838383;
-}
-
-input::-moz-placeholder {
-  color: #838383;
-}
-
-input:-ms-input-placeholder {
-  color: #838383;
-}
-
-input::-ms-input-placeholder {
-  color: #838383;
-}
-
-input::placeholder {
-  color: #838383;
-}
-
-input[type="datetime-local"]:invalid::-webkit-datetime-edit {
-  color: #999;
 }
 
 .form__button {
@@ -119,4 +118,8 @@ input[type="datetime-local"]:invalid::-webkit-datetime-edit {
   border-radius: 2px;
   border-color: #838383;
   cursor: pointer;
+}
+
+.form__checkbox:checked {
+  background-image: url(../images/check.svg);
 }
