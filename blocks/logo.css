@@ -1,4 +1,5 @@
 .logo {
-  width: 124px;
+  /* I adjusted below from 124 to 125 */
+  width: 125px;
   height: 142px;
 }
