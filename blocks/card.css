@@ -1,19 +1,8 @@
 .card {
   max-width: 600px;
-  /*
-  Remove the code below per the notes
-  width: 100%;
-  */
-  /* The solution is below, but it doesn't resize well below 1200px*/
   flex: 0 0 50%;
 }
 
-/*
-Remove the code below per the notes
-.card:last-of-type {
-  margin: auto;
-}
-*/
 .card__title {
   font-weight: bold;
   font-size: 20px;
