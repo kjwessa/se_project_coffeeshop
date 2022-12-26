@@ -42,4 +42,5 @@
   gap: 100px;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  max-width: 1300px;
 }

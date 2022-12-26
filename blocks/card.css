@@ -1,6 +1,9 @@
 .card {
   max-width: 600px;
-  flex: 0 0 50%;
+  min-width: 400px;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
 }
 
 .card__title {
