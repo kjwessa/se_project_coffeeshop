@@ -1,6 +1,7 @@
 .card {
   max-width: 600px;
-  min-width: 400px;
+  -ms-flex-preferred-size: 44%;
+  flex-basis: 44%;
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
